@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water_Cave
+  m_Shader: {fileID: -6465566751694194690, guid: ba12f60a509154398be5ddbcdccc1eb4,
+    type: 3}
+  m_ValidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  - _USE_CAMERA_COLOR_TEXTURE
+  - _USE_CAMERA_DEPTH_TEXTURE
+  - _USE_CAMERA_TEXTURES
+  m_InvalidKeywords:
+  - _SURFACETYPE_A
+  - _SURFACE_TRANSPARENT
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2999
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 11154d936b05e66498f68fa178c5cfbb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTexture:
+        m_Texture: {fileID: 2800000, guid: 99739c87249e33e4fa668bb3afdb8635, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpMapScale_Tile: 2
+    - _BumpMapSpeed: 0.05
+    - _BumpScale: 0.01
+    - _CastShadows: 0
+    - _Cull: 2
+    - _Distance: 2.59
+    - _DistortionAmount: 0.05
+    - _DistortionScale: 1
+    - _DistortionSpeed: 0.02
+    - _DstBlend: 10
+    - _FoamArtifactAdjustment: 0.02
+    - _FoamRange: 0.01
+    - _FresnelPow: 6
+    - _Metallic: 0
+    - _NormalStrength: 0.07
+    - _QueueControl: 0
+    - _QueueOffset: -1
+    - _ReflectionIntensity: 1
+    - _SURFACE: 1
+    - _SURFACETYPE: 0
+    - _Slider: 0.2
+    - _Smoothness: 0
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _USE_CAMERA_COLOR_TEXTURE: 1
+    - _USE_CAMERA_DEPTH_TEXTURE: 1
+    - _USE_CAMERA_TEXTURES: 1
+    - _WaterDensity: 0.17
+    - _WaterDensityMultiplier: 4.1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 1
+    m_Colors:
+    - _BaseColor: {r: 0.028301895, g: 0.024136709, b: 0.012682453, a: 0}
+    - _DistortDirection1: {r: 1, g: 0, b: 0, a: 0}
+    - _DistortDirection2: {r: -1.3, g: 0, b: 0, a: 0}
+    - _DistortionSpeed1: {r: -1, g: 0, b: 0, a: 0}
+    - _DistortionSpeed2: {r: 1.3, g: 0, b: 0, a: 0}
+    - _FoamColor: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 0}
+    - _ReflectionColorFallback: {r: 0.103773594, g: 0.07441293, b: 0.049439307, a: 0}
+    - _Tile: {r: 1, g: 1, b: 0, a: 0}
+    - _WaterColorClose: {r: 0.18867919, g: 0.17221424, b: 0.15574932, a: 0}
+    - _WaterColorDeep: {r: 0.1294117, g: 0.107789986, b: 0.08256466, a: 0.14117648}
+    - _WaterColor_Close: {r: 0.264132, g: 0.363033, b: 0.396, a: 0.827451}
+    - _WaterColor_Deep: {r: 0.260586, g: 0.3960452, b: 0.467, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &1477393502732168551
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
