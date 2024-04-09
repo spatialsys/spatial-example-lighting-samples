@@ -3,7 +3,9 @@
     "rootNamespace": "",
     "references": [
         "SpatialSys.UnitySDK",
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "Unity.Mathematics",
+        "Unity.RenderPipelines.Universal.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
