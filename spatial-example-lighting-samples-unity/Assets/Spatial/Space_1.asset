@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Space_1
   m_EditorClassIdentifier: 
   version: 1
-  sku: 65dcaa64a957d5ed32d1c89d
+  sku:
   packageName: Spatial Example - Lighting Samples
   thumbnail: {fileID: 2800000, guid: 6e37412a1d3424d5c8b6d6c016254342, type: 3}
   savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
     type: 2}
-  worldID: 9868827io2hxncaeel8lz
+  worldID:
   scene: {fileID: 102900000, guid: d51881c0758a14064b690d3111ff487c, type: 3}
   csharpAssembly: {fileID: 5897886265953266890, guid: befc3c8ca23574bbdb11cae090f478b8,
     type: 3}
